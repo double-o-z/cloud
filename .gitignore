@@ -3,6 +3,7 @@ bin
 share
 local
 pip-selfcheck.json
+lib
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
 # Byte-compiled / optimized / DLL files
