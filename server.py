@@ -1,8 +1,9 @@
+#!/home/batman/dev/cloud/bin/python2.7
 import socket
 import threading
 from mpmath import mp
 
-DIGITS = 300000
+DIGITS = 100000
 
 
 class ThreadedServer:
@@ -26,6 +27,7 @@ class ThreadedServer:
             try:
                 data = client.recv(1024)
                 if data:
+                    print "Got client request. Generating response."
                     response = self.calc_pie_digits()
                     client.send(response)
                     print "Sent a client: {}, pie's first {} digits.".format(address, DIGITS)
@@ -40,5 +42,4 @@ class ThreadedServer:
         mp.dps = DIGITS
         return str(mp.pi)
 
-if __name__ == "__main__":
-    ThreadedServer('', 8080).listen()
+ThreadedServer('', 8080).listen()
