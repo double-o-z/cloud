@@ -1,0 +1,10 @@
+[Unit]
+Description=simple python script
+
+[Service]
+WorkingDirectory=/home/batman/dev/cloud
+ExecStart=/home/batman/dev/cloud/bin/python server.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -31,5 +31,7 @@ sudo systemctl enable server.service
 sudo systemctl start server.service
 sudo systemctl status server.service
 
+
+
 To clone linux machine:
 ...
