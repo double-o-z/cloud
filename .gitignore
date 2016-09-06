@@ -4,6 +4,10 @@ share
 local
 pip-selfcheck.json
 lib
+Include
+Lib
+Scripts
+tcl
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
 # Byte-compiled / optimized / DLL files
