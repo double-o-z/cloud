@@ -1,4 +1,4 @@
-#!/home/batman/dev/cloud/bin/python2.7
+#!/home/ubuntu/dev/cloud/bin/python2.7
 import socket
 import threading
 from mpmath import mp
