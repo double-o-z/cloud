@@ -1,2 +1,4 @@
 mpmath==0.19
+pkg-resources==0.0.0
 pyvbox==1.0.0
+scapy==2.3.2
