@@ -2,8 +2,8 @@
 Description=simple python script
 
 [Service]
-WorkingDirectory=/home/batman/dev/cloud
-ExecStart=/home/batman/dev/cloud/bin/python server.py
+WorkingDirectory=/home/ubuntu/dev/cloud/server
+ExecStart=/home/ubuntu/dev/cloud/bin/python server.py
 Restart=always
 
 [Install]
